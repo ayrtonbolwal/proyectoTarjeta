@@ -4,35 +4,6 @@ h2 {
     padding-bottom: 20px;
 }
 
-.template {
-    padding: 0rem 12rem;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2rem 0;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-}
-
-nav p {
-    font-weight: 600;
-    font-size: 1.2rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: var(--colorWhite);
-}
-
 
 
 header {
@@ -244,9 +215,6 @@ main {
 
 
 @media screen and (max-width: 1200px) {
-    .template {
-        padding: 0 5rem;
-    }
     main .actions{
         height: auto;
         grid-template-columns: repeat(2, 1fr);
@@ -264,9 +232,6 @@ main {
 }
 
 @media screen and (max-width: 700px) {
-    .template {
-        padding: 0 1rem;
-    }
 
     nav {
         display: none;

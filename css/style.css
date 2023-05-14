@@ -20,6 +20,37 @@ body{
     color: white;
     font-size: 18px;
 }
+
+.template {
+    padding: 0rem 12rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav p {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--colorWhite);
+}
+
 footer{
     padding: 4rem 12rem;
     margin-top: 10rem;
@@ -57,13 +88,25 @@ button{
     font-size: 1.2rem;
 }
 
+@media screen and (max-width: 1200px) {
+    .template {
+        padding: 0 5rem;
+    }
+}
+
 @media screen and (max-width: 800px) {
     footer{
         padding: 2rem;
     }
+    nav{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 700px) {
+    .template {
+        padding: 0 1rem;
+    }
     footer{
         padding: 2rem;
     }
